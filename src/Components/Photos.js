@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import allPhotos from "../Json/allphotos"
 import { useSearchParams } from 'react-router-dom'
+
 
 export const Photos = () => {
     const [photovisible, setphotovisible] = useState(false)
@@ -25,6 +26,10 @@ export const Photos = () => {
 
         commercial: `Looking to elevate your brand or product? Our commercial photography services help businesses communicate their value through compelling visuals. From fashion and lifestyle to product showcases and branding campaigns, we create high-quality images that align with your brand’s identity and grab attention in today’s visual world.`
     }
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scrolls to top
+    }, [type]); // Runs on initial load and when `type` changes
+      
 
     return (
         <div className='section'>
@@ -39,7 +44,7 @@ export const Photos = () => {
                             <div className='img-content' key={photo.id}>
                                 <img
                                     src={photo.enhanced}
-                                    alt={`Photo ${photo.id}`}
+                                    alt={` ${photo.id}`}
                                     loading="lazy"
                                     onClick={() => viewPhoto(photo.url)}
                                 />
