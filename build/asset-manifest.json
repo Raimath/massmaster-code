@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/massmaster/static/css/main.893e484b.css",
-    "main.js": "/massmaster/static/js/main.7230ab1f.js",
-    "static/js/453.e1341198.chunk.js": "/massmaster/static/js/453.e1341198.chunk.js",
-    "index.html": "/massmaster/index.html",
-    "main.893e484b.css.map": "/massmaster/static/css/main.893e484b.css.map",
-    "main.7230ab1f.js.map": "/massmaster/static/js/main.7230ab1f.js.map",
-    "453.e1341198.chunk.js.map": "/massmaster/static/js/453.e1341198.chunk.js.map"
+    "main.css": "/static/css/main.35199aac.css",
+    "main.js": "/static/js/main.d89a91d9.js",
+    "static/js/453.e1341198.chunk.js": "/static/js/453.e1341198.chunk.js",
+    "index.html": "/index.html",
+    "main.35199aac.css.map": "/static/css/main.35199aac.css.map",
+    "main.d89a91d9.js.map": "/static/js/main.d89a91d9.js.map",
+    "453.e1341198.chunk.js.map": "/static/js/453.e1341198.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.893e484b.css",
-    "static/js/main.7230ab1f.js"
+    "static/css/main.35199aac.css",
+    "static/js/main.d89a91d9.js"
   ]
 }
