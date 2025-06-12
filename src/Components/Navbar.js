@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark,faAngleDown } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
@@ -24,7 +25,7 @@ export const Navbar = () => {
 
       <ul className={`nav-list ${menuOpen ? 'open' : ''}`}>
         
-        <li><Link to="/home" onClick={() => setMenuOpen(false)}>Home</Link></li>
+        <li><NavLink  to="/home" onClick={() => setMenuOpen(false)}>Home</NavLink></li>
 
         <li className="photos-menu" onClick={() => setSubmenuOpen(!submenuOpen)}>
           Photos <FontAwesomeIcon icon={faAngleDown} />
@@ -46,10 +47,10 @@ export const Navbar = () => {
             <li><Link to="/videos?type=commercial" onClick={() => setMenuOpen(false)}>Commercial</Link></li>
           </ul>
         </li>         */}
-        <li><Link to="/videos" onClick={() => setMenuOpen(false)}>Videos</Link></li>
-        <li><Link to="/services" onClick={() => setMenuOpen(false)}>Services</Link></li>
-        <li><Link to="/about" onClick={() => setMenuOpen(false)}>About Us</Link></li>
-        <li><Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link></li>
+        <li><NavLink to="/videos" onClick={() => setMenuOpen(false)}>Videos</NavLink></li>
+        <li><NavLink to="/services" onClick={() => setMenuOpen(false)}>Services</NavLink></li>
+        <li><NavLink to="/about" onClick={() => setMenuOpen(false)}>About Us</NavLink></li>
+        <li><NavLink to="/contact" onClick={() => setMenuOpen(false)}>Contact</NavLink></li>
       </ul>
     </div>
   );

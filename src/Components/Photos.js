@@ -39,10 +39,13 @@ export const Photos = () => {
     }, [location]);
 
     return (
-        <div className='section'>
-            <div className='container photo-container'>
+            <>
+            <div className='photo-type'>
                 <h1>{type?.toUpperCase()}</h1>
                 <p>{descriptions[type?.toLowerCase()]}</p>
+            </div>
+        <div className='section'>
+            <div className='container photo-container'>
 
                 <div className='image-box'>
                     {allPhotos
@@ -71,5 +74,6 @@ export const Photos = () => {
                 </div>
             </div>
         </div>
+        </>
     )
 }
