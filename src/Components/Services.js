@@ -6,8 +6,8 @@ export const Services = () => {
       <div className='section services-section'>
         <div className='container services-container flex'>
           <h3>Services</h3>
-          <div className='services-content'>
-            <div className='service-box flex'>
+          <div className='services-content flex'>
+            <div className='service-box flex '>
               <div className='service-image'>
                 <img src='https://res.cloudinary.com/ddkfbtxsp/image/upload/v1749374568/Prewedding_x11okq.webp' alt='Prewedding' />
               </div>
@@ -20,7 +20,7 @@ export const Services = () => {
               </div>
             </div>
 
-            <div className='service-box flex'>
+            <div className='service-box flex column-reverse'>
               <div className='service-content flex'>
                 <div className='service-heading'>
                   Wedding Shoot
@@ -47,7 +47,7 @@ export const Services = () => {
               </div>
             </div>
 
-            <div className='service-box flex'>
+            <div className='service-box flex column-reverse'>
               <div className='service-content flex'>
                 <div className='service-heading'>
                   Drone Shoot
@@ -76,7 +76,7 @@ export const Services = () => {
             </div>
 
 
-            <div className='service-box flex'>
+            <div className='service-box flex column-reverse'>
               
               <div className='service-content flex'>
                 <div className='service-heading'>

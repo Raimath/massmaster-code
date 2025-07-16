@@ -28,13 +28,10 @@ export const Navbar = () => {
         <li><NavLink  to="/home" onClick={() => setMenuOpen(false)}>Home</NavLink></li>
 
         <li className="photos-menu" onClick={() => setSubmenuOpen(!submenuOpen)}>
-          Photos <FontAwesomeIcon icon={faAngleDown} />
+          Wedding <FontAwesomeIcon icon={faAngleDown} />
           <ul className={`submenu ${submenuOpen ? 'open' : ''}`}>
             <li><Link to="/photos?type=candid" onClick={() => setMenuOpen(false)}>Candid</Link></li>
-            <li><Link to="/photos?type=wedding" onClick={() => setMenuOpen(false)}>Wedding</Link></li>
             <li><Link to="/photos?type=prewedding" onClick={() => setMenuOpen(false)}>Prewedding</Link></li>
-            <li><Link to="/photos?type=traditional" onClick={() => setMenuOpen(false)}>Traditional</Link></li>
-            <li><Link to="/photos?type=commercial" onClick={() => setMenuOpen(false)}>Commercial</Link></li>
           </ul>
         </li>
         {/* <li className="photos-menu" onClick={() => setSubmenuOpen(!submenuOpen)}>
@@ -47,6 +44,8 @@ export const Navbar = () => {
             <li><Link to="/videos?type=commercial" onClick={() => setMenuOpen(false)}>Commercial</Link></li>
           </ul>
         </li>         */}
+        <li><NavLink to="/ads" onClick={() => setMenuOpen(false)}>Ads</NavLink></li>
+        <li><NavLink to="/films" onClick={() => setMenuOpen(false)}>Films</NavLink></li>
         <li><NavLink to="/videos" onClick={() => setMenuOpen(false)}>Videos</NavLink></li>
         <li><NavLink to="/services" onClick={() => setMenuOpen(false)}>Services</NavLink></li>
         <li><NavLink to="/about" onClick={() => setMenuOpen(false)}>About Us</NavLink></li>

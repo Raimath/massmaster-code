@@ -55,7 +55,7 @@ export const Footer = () => {
                         </div>
                         <div className='query flex'>
                             <div className='footer-heading'>Have a Query</div>
-                            <ul >
+                            <ul className='query-ul'>
 
                                 <li className='link flex'>
                                     <div className='icon'><FontAwesomeIcon icon={faPhone} size="xl" /></div>

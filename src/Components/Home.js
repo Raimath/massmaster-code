@@ -12,7 +12,7 @@ export const Home = () => {
             <Slider />
             <Welcome/>
             <Boxes/>
-            <Photos />
+            {/* <Photos /> */}
             <Services/>
             <Contact/>
         </>
