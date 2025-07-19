@@ -48,7 +48,7 @@ export const Navbar = () => {
         <li><NavLink to="/films" onClick={() => setMenuOpen(false)}>Films</NavLink></li>
         <li><NavLink to="/videos" onClick={() => setMenuOpen(false)}>Videos</NavLink></li>
         <li><NavLink to="/services" onClick={() => setMenuOpen(false)}>Services</NavLink></li>
-        <li><NavLink to="/about" onClick={() => setMenuOpen(false)}>About Us</NavLink></li>
+        <li><NavLink to="/about" onClick={() => setMenuOpen(false)}>About</NavLink></li>
         <li><NavLink to="/contact" onClick={() => setMenuOpen(false)}>Contact</NavLink></li>
       </ul>
     </div>

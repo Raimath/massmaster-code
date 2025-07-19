@@ -11,8 +11,9 @@ export const Contact = () => {
       <div className='section'>
         <div className='container contact-container flex'>
           <h3>Contact</h3>
+          <p>For Booking!</p>
          
-          <Link to="https://wa.me/919353880091" className='contacts' target="_blank" rel="noopener noreferrer">
+          <Link to="https://wa.me/917019750802" className='contacts' target="_blank" rel="noopener noreferrer">
             <div className='contact-element flex'>
               <div className='contact-logo'>
                 <FontAwesomeIcon icon={faWhatsapp} size="2xl" />
@@ -22,13 +23,13 @@ export const Contact = () => {
                   Whatsapp
                 </div>
                 <div className='contact-info'>
-                  +91 9353880091
+                  +91 7019750802
                 </div>
               </div>
             </div>
           </Link>
 
-          <Link to="tel:+919353880091" className='contacts'>
+          <Link to="tel:+917019750802" className='contacts'>
             <div className='contact-element flex'>
               <div className='contact-logo'>
                 <FontAwesomeIcon icon={faPhone} size="2xl" />
@@ -38,13 +39,13 @@ export const Contact = () => {
                   Phone
                 </div>
                 <div className='contact-info'>
-                  +91 9353880091
+                  +91 7019750802
                 </div>
               </div>
             </div>
           </Link>
 
-          <Link to="https://www.instagram.com/raimath420" className='contacts' target="_blank" rel="noopener noreferrer">
+          <Link to="https://www.instagram.com/massmasterproductions" className='contacts' target="_blank" rel="noopener noreferrer">
             <div className='contact-element flex'>
               <div className='contact-logo'>
                 <FontAwesomeIcon icon={faInstagram} size="2xl" />
@@ -54,13 +55,13 @@ export const Contact = () => {
                   Instagram
                 </div>
                 <div className='contact-info'>
-                  @raimath420
+                  @massmasterproductions
                 </div>
               </div>
             </div>
           </Link>
 
-          <Link to="mailto:raimath420@gmail.com" className='contacts'>
+          <Link to="mailto:massmasterweddings@gmail.com" className='contacts'>
             <div className='contact-element flex'>
               <div className='contact-logo'>
                 <FontAwesomeIcon icon={faEnvelope} size="2xl" />
@@ -70,7 +71,7 @@ export const Contact = () => {
                   Email
                 </div>
                 <div className='contact-info'>
-                  raimath420@gmail.com
+                  massmasterweddings@gmail.com
                 </div>
               </div>
             </div>

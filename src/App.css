@@ -55,6 +55,7 @@ ul li {
   position: sticky;
   top: 0;
   z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -273,12 +274,13 @@ ul li {
 
 .image-box {
   columns: 2;
+  margin-bottom: 2rem;
 }
 
 .img-content {
   background-color: white;
   margin: 10px;
-  padding: 20px;
+  padding: 15px;
   border-radius: 5px;
 }
 
@@ -368,11 +370,12 @@ ul li {
   align-items: center;
 }
 
-
-
-
-
-
+.videos-section{
+  padding: 1rem 0;
+}
+.videos-container {
+    padding: 0 0 1rem 0;
+}
 
 
 /***********************************************************************************************************
@@ -469,6 +472,36 @@ ul li {
 
 
 /***********************************************************************************************************
+                                    favorite section starts
+***********************************************************************************************************/
+.favorite-container{
+  padding: 1rem 0;
+  flex-direction: column;
+
+}
+
+.favorite-container h3{
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  
+}
+.show-more-btn{
+  color: var(--brown-bg);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+  border: 2px solid var(--brown-bg);
+  padding: .3rem 1rem;
+  border-radius: 5px;
+  transition: 0.5s ease-in-out;
+}
+.show-more-btn:hover{
+  color: var(--white-bg);
+  background-color: var(--brown-bg);
+ 
+}
+/***********************************************************************************************************
                                     Services section starts
 ***********************************************************************************************************/
 
@@ -525,6 +558,57 @@ ul li {
 
 
 /***********************************************************************************************************
+                                    About section starts
+***********************************************************************************************************/
+.about-container {
+  background-color: var(--white-bg);
+  flex-direction: column;
+}
+
+.about-content {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 70%;
+  gap: 3rem;
+  padding: 2rem 0;
+}
+
+.about-container h3 {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.about-li {
+  padding-left: 2rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.about-li li {
+  list-style: square;
+
+}
+
+.profile {
+  flex-direction: column;
+  width: 75%;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 15rem;
+  padding: 0 0 0.5rem 0;
+}
+
+.para-light {
+  color: gray;
+  text-align: center;
+}
+
+/***********************************************************************************************************
                                     Contact section starts
 ***********************************************************************************************************/
 
@@ -549,6 +633,7 @@ ul li {
   width: 40%;
   margin: 0.7rem 0;
   transition: 0.5s ease-in-out;
+  overflow: auto;
 }
 
 
@@ -561,6 +646,14 @@ ul li {
 .contact-element {
   justify-content: start;
   gap: 3%;
+  word-wrap: break-word;
+}
+
+.contact-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 /***********************************************************************************************************
@@ -732,6 +825,10 @@ li a {
 
     min-width: 80vw;
   }
+
+  .about-container {
+    width: 90vw;
+  }
 }
 
 
@@ -768,6 +865,7 @@ li a {
 
   .contacts {
     width: 100%;
+    padding: .5rem 1rem;
   }
 
   .contact-container {
@@ -781,5 +879,11 @@ li a {
 
   .footer-navlink {
     align-items: flex-start;
+  }
+  .about-content {
+    width: 90%;
+  }
+  .profile img {
+    width: 13rem;
   }
 }

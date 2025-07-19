@@ -20,7 +20,15 @@ export const Footer = () => {
                                     <div className='icon'><FontAwesomeIcon icon={faInstagram} size="2xl" /></div>
                                     <Link to="https://www.instagram.com/massmasterweddings" target="_blank" rel="noopener noreferrer">massmasterweddings</Link>
                                 </li>
+                                <li className='link flex'>
+                                    <div className='icon'><FontAwesomeIcon icon={faInstagram} size="2xl" /></div>
+                                    <Link to="https://www.instagram.com/massmasterproductions/" target="_blank" rel="noopener noreferrer">massmasterproductions</Link>
+                                </li>
 
+                                <li className='link flex'>
+                                    <div className='icon'><FontAwesomeIcon icon={faYoutube} size="xl" /></div>
+                                    <Link to="https://www.youtube.com/@massmaster7" target="_blank" rel="noopener noreferrer">MassMaster</Link>
+                                </li>
                                 <li className='link flex'>
                                     <div className='icon'><FontAwesomeIcon icon={faYoutube} size="xl" /></div>
                                     <Link to="https://www.youtube.com/@MassMasterWeddings" target="_blank" rel="noopener noreferrer">MassMaster Weddings</Link>
@@ -33,12 +41,13 @@ export const Footer = () => {
 
                                 <li className='link flex'>
                                     <div className='icon'><FontAwesomeIcon icon={faXTwitter} size="2xl" /></div>
-                                    <Link to="https://x.com/__mass_master_" target="_blank" rel="noopener noreferrer">Mr.Shanth</Link>
+                                    <Link to="https://x.com/__mass_master_" target="_blank" rel="noopener noreferrer">@__mass_master_
+</Link>
                                 </li>
 
                                 <li className='link flex'>
                                     <div className='icon'><FontAwesomeIcon icon={faLinkedin} size="2xl" /></div>
-                                    <Link to="https://www.linkedin.com/in/raimath-ali/" target="_blank" rel="noopener noreferrer">massmasterweddings</Link>
+                                    <Link to="https://www.linkedin.com/in/massmaster/" target="_blank" rel="noopener noreferrer">massmaster</Link>
                                 </li>
                             </ul>
                         </div>
@@ -59,11 +68,11 @@ export const Footer = () => {
 
                                 <li className='link flex'>
                                     <div className='icon'><FontAwesomeIcon icon={faPhone} size="xl" /></div>
-                                    <Link to="tel:+919353880091" target="_blank" rel="noopener noreferrer">+91 9353880091</Link>
+                                    <Link to="tel:+9170197 50802" target="_blank" rel="noopener noreferrer">+91 7019750802</Link>
                                 </li>
                                 <li className='link flex'>
                                     <div className='icon'><FontAwesomeIcon icon={faEnvelope} size="xl" /></div>
-                                    <Link to="mailto:raimath420@gmail.com" target="_blank" rel="noopener noreferrer">massmasterweddings@gmail.com</Link>
+                                    <Link to="mailto:massmasterweddings@gmail.com" target="_blank" rel="noopener noreferrer">massmasterweddings@gmail.com</Link>
                                 </li>
                                 <li className='link flex'>
                                     <div className='icon'><FontAwesomeIcon icon={faLocationDot} size="xl" /></div>
