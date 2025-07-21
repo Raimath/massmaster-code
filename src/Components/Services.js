@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion';
 
 export const Services = () => {
   return (
@@ -7,7 +8,15 @@ export const Services = () => {
         <div className='container services-container flex'>
           <h3>Services</h3>
           <div className='services-content flex'>
-            <div className='service-box flex '>
+            <motion.div className='service-box flex '
+              initial={{ y: 150, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+               viewport={{ once: true }}
+              transition={{
+                y: { type: 'spring', stiffness: 60, },
+                opacity: { duration: 0.1 },
+                ease: 'easeInOut'
+              }}>
               <div className='service-image'>
                 <img src='https://res.cloudinary.com/ddkfbtxsp/image/upload/v1749374568/Prewedding_x11okq.webp' alt='Prewedding' />
               </div>
@@ -16,11 +25,19 @@ export const Services = () => {
                   Pre-Wedding Shoot
                 </div>
                 <p className='service-para'> Celebrate your love story before the big day with a personalized pre-wedding shoot. Whether it's at a scenic location, a cozy spot, or somewhere that holds special meaning, we craft cinematic frames that reflect your chemistry, emotions, and journey together.</p>
-                 <p className='service-para'>Customized themes & locations | Outfit and pose guidance | Professional editing</p>
+                <p className='service-para'>Customized themes & locations | Outfit and pose guidance | Professional editing</p>
               </div>
-            </div>
+            </motion.div>
 
-            <div className='service-box flex column-reverse'>
+            <motion.div className='service-box flex column-reverse'
+              initial={{ y: 150, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+               viewport={{ once: true }}
+              transition={{
+                y: { type: 'spring', stiffness: 60, },
+                opacity: { duration: 0.1 },
+                ease: 'easeInOut'
+              }}>
               <div className='service-content flex'>
                 <div className='service-heading'>
                   Wedding Shoot
@@ -32,9 +49,17 @@ export const Services = () => {
               <div className='service-image'>
                 <img src='https://res.cloudinary.com/ddkfbtxsp/image/upload/v1749374568/Wedding_uco7pn.webp' alt='Prewedding' />
               </div>
-            </div>
+            </motion.div>
 
-            <div className='service-box flex'>
+            <motion.div className='service-box flex'
+              initial={{ y: 150, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+               viewport={{ once: true }}
+              transition={{
+                 y: { type: 'spring', stiffness: 60,},
+                opacity: { duration: 0.1 },
+                ease: 'easeInOut'
+              }}> 
               <div className='service-image'>
                 <img src='https://res.cloudinary.com/ddkfbtxsp/image/upload/v1749374565/Editing_m5k0us.webp' alt='Prewedding' />
               </div>
@@ -45,9 +70,17 @@ export const Services = () => {
                 <p className='service-para'> We don't just capture memories—we perfect them. Our professional editing services include color correction, cinematic video cuts, retouching, and more. Whether it’s wedding footage or commercial reels, we bring out the best in every frame with high-end post-production finesse.</p>
                 <p className='service-para'> Photo retouching |  Cinematic video edits | Fast delivery</p>
               </div>
-            </div>
+            </motion.div>
 
-            <div className='service-box flex column-reverse'>
+            <motion.div className='service-box flex column-reverse'
+              initial={{ y: 150, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+               viewport={{ once: true }}
+              transition={{
+                 y: { type: 'spring', stiffness: 60,},
+                opacity: { duration: 0.1 },
+                ease: 'easeInOut'
+              }}> 
               <div className='service-content flex'>
                 <div className='service-heading'>
                   Drone Shoot
@@ -59,9 +92,17 @@ export const Services = () => {
               <div className='service-image'>
                 <img src='https://res.cloudinary.com/ddkfbtxsp/image/upload/v1749374567/Drone_xnicms.webp' alt='Prewedding' />
               </div>
-            </div>
+            </motion.div>
 
-            <div className='service-box flex'>
+            <motion.div className='service-box flex'
+              initial={{ y: 150, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+               viewport={{ once: true }}
+              transition={{
+                 y: { type: 'spring', stiffness: 60,},
+                opacity: { duration: 0.1 },
+                ease: 'easeInOut'
+              }}> 
               <div className='service-image'>
                 <img src='https://res.cloudinary.com/ddkfbtxsp/image/upload/v1749374566/Event_pyiegi.webp' alt='Prewedding' />
               </div>
@@ -73,11 +114,19 @@ export const Services = () => {
                 </p>
                 <p className='service-para'> Full event coverage | Unlimited candid moments | Custom event albums</p>
               </div>
-            </div>
+            </motion.div>
 
 
-            <div className='service-box flex column-reverse'>
-              
+            <motion.div className='service-box flex column-reverse'
+              initial={{ y: 150, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+               viewport={{ once: true }}
+              transition={{
+                 y: { type: 'spring', stiffness: 60,},
+                opacity: { duration: 0.1 },
+                ease: 'easeInOut'
+              }}> 
+
               <div className='service-content flex'>
                 <div className='service-heading'>
                   Commercial Shoot
@@ -89,7 +138,7 @@ export const Services = () => {
               <div className='service-image'>
                 <img src='https://res.cloudinary.com/ddkfbtxsp/image/upload/v1749374569/Commercial_i6suy6.webp' alt='Prewedding' />
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>

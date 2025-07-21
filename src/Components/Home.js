@@ -11,7 +11,7 @@ export const Home = () => {
     const location = useLocation();
     useEffect(() => {
         window.scrollTo({
-            top: 1000,
+            top: 0,
             left: 0,
             behavior: "smooth"
         });

@@ -449,21 +449,19 @@ ul li {
   left: 0;
   width: 100%;
   height: 100%;
-  /* background-color: var(--secondary-bg);
-   */
-  /* background-color: rgba(255, 255, 255,0.2); */
+  background-color: var(--secondary-bg);
+  
+  background-color: rgba(255, 255, 255,0.2); 
   /* backdrop-filter: blur(50px); */
-  /* opacity: 0.2; */
-  /* initially hidden */
+  opacity: 0.2;
   transition: opacity 0.3s ease-in-out;
   z-index: 2;
 
 }
 
 .box-link:hover::before {
-  /* opacity: 0.6; */
-  backdrop-filter: blur(1px);
-  /* visible on hover */
+  opacity: 0.6; 
+ 
 }
 
 .box-link:hover .box-img img {
